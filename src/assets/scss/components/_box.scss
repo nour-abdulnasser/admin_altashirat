@@ -1,0 +1,62 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.box {
+  height: 63px;
+  width: 127.4px;
+  
+  &--primary {
+    &1 {
+      background-color: var(--secondary-color);
+    }
+    &2 {
+      background-color: #335a7a;
+    }
+    &3 {
+      background-color: #e3edf5;
+    }
+  }
+  &--secondary {
+    &1 {
+      background-color: var(--primary-color);
+    }
+    &2 {
+      background-color: #a6bf23cc;
+    }
+    &3 {
+      background-color: #f8fed9;
+    }
+  }
+  &--grey {
+    &1 {
+      background-color: #f7f8f9;
+    }
+    &2 {
+      background-color: #dadada;
+    }
+    &3 {
+      background-color: #939393;
+    }
+  }
+  &--error {
+    &1 {
+      background-color: #e21b1b;
+    }
+    &2 {
+      background-color: #fae1e4;
+    }
+
+  }
+  &--correct {
+    &1 {
+      background-color: #4bae4f;
+    }
+    &2 {
+      background-color: #f1fff2;
+    }
+
+  }
+  &--black {
+      background-color: #000;
+    
+  }
+}

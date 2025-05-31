@@ -1,0 +1,39 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.input {
+  &__label {
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  &__description {
+    // color: var(--light-text-color);
+    color: var(--light-text-color);
+
+    font-size: 1rem;
+  }
+  &--appended{
+    // position: relative;
+  }
+  &__message {
+    background-color: pink;
+    // position: absolute;
+    // left: 0;
+    // top: 30%;
+    
+    width: fit-content;
+    // text-align: end;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    img{
+      margin: 5px;
+    }
+    &--valid{
+      color: var(--correct-text-color);
+    }
+    &--invalid{
+      color: var(--error-text-color);
+    }
+  }
+}

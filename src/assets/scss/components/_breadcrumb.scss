@@ -1,0 +1,32 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.breadcrumb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8.5px;
+
+  &__nav {
+    width: 90%;
+    height: 48px;
+    margin: 21.9px 0px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    border: solid 1px #e2e2e2;
+    background-color: #fff;
+  }
+  &__button {
+    width: 10%;
+    
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    color: white;
+    height: 48px !important;
+
+    background-color: var(--primary-color);
+    &--holder {
+      flex-grow: 1;
+    }
+  }
+}

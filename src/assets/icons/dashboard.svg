@@ -1,0 +1,15 @@
+<svg width="62" height="63" viewBox="0 0 62 63" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-182.5%" y="-134.6%" width="465%" height="470.8%" filterUnits="objectBoundingBox" id="9akijs142a">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="9.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.985027811 0 0 0 0 0.8137706 0 0 0 0 0.927350512 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <path d="M18.236 19.688h-5.758c-.972 0-1.764-.78-1.764-1.737v-7.074c0-.957.792-1.736 1.764-1.736h5.758c.973 0 1.764.779 1.764 1.736v7.074c0 .957-.791 1.736-1.764 1.736zm-5.758-9.141a.332.332 0 0 0-.335.33v7.074c0 .183.15.33.335.33h5.758a.332.332 0 0 0 .335-.33v-7.074c0-.182-.15-.33-.335-.33h-5.758zm5.758-2.813h-5.758c-.972 0-1.764-.779-1.764-1.736V1.736c0-.957.792-1.736 1.764-1.736h5.758C19.21 0 20 .78 20 1.736v4.262c0 .957-.791 1.736-1.764 1.736zm-5.758-6.328a.332.332 0 0 0-.335.33v4.262c0 .182.15.33.335.33h5.758a.332.332 0 0 0 .335-.33V1.736c0-.182-.15-.33-.335-.33h-5.758zm-4.956 9.14H1.764C.79 10.547 0 9.769 0 8.812V1.736C0 .779.791 0 1.764 0h5.758c.972 0 1.764.78 1.764 1.736v7.075c0 .957-.792 1.736-1.764 1.736zm-5.758-9.14a.332.332 0 0 0-.335.33v7.075c0 .182.15.33.335.33h5.758a.332.332 0 0 0 .335-.33V1.736c0-.182-.15-.33-.335-.33H1.764zm5.758 18.282H1.764C.79 19.688 0 18.907 0 17.95V13.69c0-.957.791-1.736 1.764-1.736h5.758c.972 0 1.764.78 1.764 1.736v4.262c0 .957-.792 1.736-1.764 1.736zm-5.758-6.329a.332.332 0 0 0-.335.33v4.262c0 .183.15.33.335.33h5.758a.332.332 0 0 0 .335-.33V13.69c0-.182-.15-.33-.335-.33H1.764z" id="mq417fmneb"/>
+    </defs>
+    <g transform="translate(21 11.922)" fill="none" fill-rule="evenodd">
+        <use fill="#000" filter="url(#9akijs142a)" xlink:href="#mq417fmneb"/>
+        <use fill="#DE1D9D" xlink:href="#mq417fmneb"/>
+    </g>
+</svg>

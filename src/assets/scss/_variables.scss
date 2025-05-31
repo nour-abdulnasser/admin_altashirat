@@ -1,0 +1,110 @@
+:root {
+  --secondary-color: #212cff;
+  --secondary-light: #de1d9d33;
+  --secondary-lighter: #de1d9d19;
+  --primary-color: #de1d9d;
+  --primary-light: #212cff33;
+  --primary-lighter: #212cff19;
+  --custom-grey-lighter: #f7f8f9;
+  --custom-grey-light: #dadada;
+  --custom-grey-dark: #f7f8f9;
+  --error-color: #d02c47;
+  --error-light: #fae1e4;
+  --success-color: #4bae4f;
+  --success-light: #f7f8f9;
+
+  --app-background: #f7f8f9;
+  --primary-color-hover: #fbe8f5;
+  --light-text-color: #939393;
+  --error-text-color: #d02c47;
+  --correct-text-color: #4bae4f;
+}
+
+/* Typography */
+
+@font-face {
+  font-family: "Noto Color Emoji Flags";
+  src: url("/fonts/NotoColorEmoji-flagsonly.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 400;
+  src: url("/fonts/Tajawal-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 300;
+  src: url("/fonts/Tajawal-Light.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 500;
+  src: url("/fonts/Tajawal-Medium.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 200;
+  src: url("/fonts/Tajawal-ExtraLight.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 700;
+  src: url("/fonts/Tajawal-Bold.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 800;
+  src: url("/fonts/Tajawal-ExtraBold.ttf") format("truetype");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Tajawal";
+  font-weight: 900;
+  src: url("/fonts/Tajawal-Black.ttf") format("truetype");
+  font-style: normal;
+}
+
+
+.text-h1,
+.text-h2,
+.text-h3,
+.text-h4,
+.text-h5,
+.text-h6,
+.text-md-h1,
+.text-md-h2,
+.text-md-h3,
+.text-md-h4,
+.text-md-h5,
+.text-md-h6,
+.text-lg-h1,
+.text-lg-h2,
+.text-lg-h3,
+.text-lg-h4,
+.text-lg-h5,
+.text-lg-h6,
+.text-body-1,
+.text-body-2,
+.text-md-body-1,
+.text-md-body-2,
+.text-lg-body-1,
+.text-lg-body-2,
+.text-subtitle-1,
+.text-subtitle-2,
+.text-md-subtitle-1,
+.text-md-subtitle-2,
+.text-lg-subtitle-1,
+.text-lg-subtitle-2,
+.text-caption,
+.text-md-caption,
+.text-lg-caption,
+.text-overline,
+.text-md-overline,
+.text-lg-overline {
+  font-family: "Tajawal", sans-serif !important;
+}

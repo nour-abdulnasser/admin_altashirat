@@ -1,0 +1,49 @@
+.custom-bordered-table {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+/* Apply borders to all cells */
+.custom-bordered-table th,
+.custom-bordered-table td {
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+  padding: 0 16px; /* Optional: adds consistent padding */
+}
+
+/* Remove border from last row */
+.custom-bordered-table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* Override Vuetify default borders */
+.custom-bordered-table .v-data-table__wrapper table {
+  border-collapse: collapse; /* Ensures borders don't double up */
+}
+
+.custom-bordered-table .v-data-table__wrapper table thead tr th,
+.custom-bordered-table .v-data-table__wrapper table tbody tr td {
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Remove bottom border from last row in Vuetify override */
+.custom-bordered-table .v-data-table__wrapper table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* Ensure header and body cells align properly */
+.custom-bordered-table .v-data-table__wrapper table thead th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12) !important;
+}
+
+/* RTL support */
+.v-locale--is-rtl {
+  .v-data-table-header__content {
+    // justify-content: center;
+  }
+}
+
+th:has(> .action-header) {
+  // display: flex;
+  // justify-content: end;
+}

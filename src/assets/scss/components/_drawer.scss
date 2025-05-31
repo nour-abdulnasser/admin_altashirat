@@ -1,0 +1,60 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.drawer {
+
+  &__item {
+    font-weight: 500;
+    .v-icon {
+      /* Normal icon */
+      background-color: #0cac9d19;
+      border-radius: 8px;
+      padding: 8px;
+    }
+    &__text {
+      font-size: 1.25rem;
+    }
+    &--active {
+      /* drawer item active  */
+      background-color: var(--primary-color-hover);
+      font-weight: 700;
+      .v-icon {
+        /* active icon  */
+        border-radius: 8px;
+        padding: 8px;
+        background-color: #fff;
+      }
+    }
+  }
+  .dashboard-icon {
+    top: -17%;
+  }
+}
+.v-navigation-drawer--right {
+  &.closed{
+    width: 0px !important;
+    // right: -0.65% !important;
+  }
+  .drawer {
+    &__item {
+      border-right: solid white 3px;
+
+      &--active {
+        border-right: solid var(--primary-color) 3px;
+      }
+    }
+  }
+}
+.v-navigation-drawer--left {
+  &.closed{
+    left: -100% !important;
+  }
+  .drawer {
+    &__item {
+      border-left: solid white 3px;
+
+      &--active {
+        border-left: solid var(--primary-color) 3px;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.v-application {
+  [class*="text-"] {
+    font-family: "Tajawal", sans-serif !important;
+  }
+
+  .text-h1,
+  .text-h2,
+  .text-h3,
+  .text-h4,
+  .text-h5,
+  .text-h6,
+  .text-md-h1,
+  .text-md-h2,
+  .text-md-h3,
+  .text-md-h4,
+  .text-md-h5,
+  .text-md-h6,
+  .text-lg-h1,
+  .text-lg-h2,
+  .text-lg-h3,
+  .text-lg-h4,
+  .text-lg-h5,
+  .text-lg-h6,
+  .text-body-1,
+  .text-body-2,
+  .text-md-body-1,
+  .text-md-body-2,
+  .text-lg-body-1,
+  .text-lg-body-2,
+  .text-subtitle-1,
+  .text-subtitle-2,
+  .text-md-subtitle-1,
+  .text-md-subtitle-2,
+  .text-lg-subtitle-1,
+  .text-lg-subtitle-2,
+  .text-caption,
+  .text-md-caption,
+  .text-lg-caption,
+  .text-overline,
+  .text-md-overline,
+  .text-lg-overline {
+    font-family: "Tajawal", sans-serif !important; 
+  }
+}

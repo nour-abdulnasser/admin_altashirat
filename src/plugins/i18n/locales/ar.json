@@ -1,0 +1,441 @@
+{
+  "buttons": {
+    "submit": "تسجيل",
+    "language": "العربية",
+    "addRecord": "إنشاء",
+    "create": "إنشاء",
+    "refresh": "إعادة تحميل",
+    "login": "تسجيل الدخول",
+    "update": "تحديث",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "saveChanges": "حفظ التغيرات",
+    "changePassword": "تعديل كلمة المرور",
+    "backToHome": "العودة إلى الرئيسية",
+    "save": "حفظ",
+    "back": "رجوع",
+    "view": "عرض",
+    "download": "تحميل",
+    "confirm": "تأكيد",
+    "back_to_list": "العودة إلى القائمة"
+  },
+
+  "fields": {
+    "firstname": "الاسم الأول",
+    "lastname": "الاسم الثان",
+    "password": "كلمة السر",
+    "confirmPassword": "تأكيد كلمة السر",
+    "countryCode": "كودالدولة",
+    "phone": {
+      "country_code": "رمز البلد",
+      "number": "الجوال"
+    },
+    "old_password": "كلمة المرور الحالية",
+    "new_password": "كلمة المرور الجديدة",
+    "new_password_confirmation": " تأكيد كلمة المرور الجديدة",
+    "language": "اللغة",
+    "occupation": "المهام الوظيفي",
+    "id": "الرقم التعريفي",
+    "toggle_visible": "تغيير الرؤية",
+    "visible": "مرئي",
+    "visibility": "الرؤية",
+    "locale": "اللغة",
+    "name": "الاسم",
+    "status": "الحالة",
+    "actions": "إجراءات",
+    "email": "البريد الإلكتروني",
+    "range": "النطاق",
+    "birthdate": "تاريخ الميلاد",
+    "text": "حقل نصي",
+    "number": "حقل رقمي",
+    "textarea": "منطقة نصية",
+    "checkbox": "مربع اختيار",
+    "value": "القيمة"
+  },
+
+  "descriptions": {
+    "firstName": "أدخل اسمك الأول",
+    "lastName": "أدخل اللقب",
+    "password": "أدخل كلمة المرور",
+    "phone": "أدخل رقم جوالك",
+    "email": "أدخل بريدك الإلكتروني"
+  },
+  "validation": {
+    "required": "حقل {field} مطلوب",
+    "min": "يجب أن يكون {field} على الأقل {min} أحرف",
+    "max": "لا يمكن أن يكون {field} أطول من {max} حرفًا",
+    "alpha": "يجب أن يتكون {field} من أحرف أبجدية فقط",
+    "regex": "تنسيق {field} غير صالح",
+    "special": "{field} يجب أن يحتوي على حرف مميز واحد على الأقل",
+    "num": "{field} يجب أن يحتوي رقم وحيد على الأقل",
+    "numeric": " {field} حقل يجب أن يحتوي أرقام فقط",
+    "alphaOnly": "{field} يجب أن يتكون من أحرف أبجدية فقط",
+    "confirmed": "يجب تطابق كلمة السر",
+    "email": "الرجاء إدخال لقب بريد إلكتروني صحيح",
+    "integer": "{field} يجب ان يكون عددا صحيحيا",
+    "string": "{field} يجب ان يكون نصا",
+    "boolean": "{field} يجب ان يكون صح او خطا"
+  },
+  "drawer": {
+    "welcome": "مرحبا",
+    "dashboard": "لوحة التحكم",
+    "titles": "الألقاب",
+    "users": "المستخدمون",
+    "permissions": "الصلاحيات",
+    "countries": "الدول",
+    "settings": "الاعدادات",
+    "visatypes": "أنواع الفيزا",
+    "tourismVisas": "طلبات الفيزا السياحية",
+    "employmentTypes": "أنواع التوظيف"
+  },
+  "navbar": {
+    "superAdmin": "سوبر أدمن",
+    "user": "مستخدم"
+  },
+  "pages": {
+    "home": "الرئيسية",
+    "titles": "الألقاب",
+    "users": "المستخدمون",
+    "countries": "الدول",
+    "settings": "الاعدادات",
+    "visaTypes": "أنواع الفيزا",
+    "employmentTypes": "أنواع التوظيف",
+    "tourismVisas": "طلبات الفيزا السياحية",
+    "login": "تسجيل الدخول"
+  },
+  "common": {
+    "dashboard": "لوحة التحكم",
+    "edit": "تعديل",
+    "cancel": "إلغاء",
+    "update": "تحديث",
+    "create": "إنشاء",
+    "actions": "إجراءات",
+    "visible": "مرئي",
+    "visibility": "الرؤية",
+    "loading_user_info": "جاري تحميل بيانات المستخدم ...",
+
+    "hidden": "مخفي",
+    "select_language": "اختر اللغة",
+    "confirm_delete": "تأكيد الحذف",
+    "delete_confirmation_message": "هل أنت متأكد من رغبتك في حذف هذا العنصر؟",
+    "delete": "حذف",
+    "loading": "جاري التحميل",
+    "loading_data": "جاري تحميل البيانات",
+    "birth_date": "تاريخ الميلاد",
+    "none": "لا يوجد",
+    "no_documents": "لا توجد مستندات مرفقة"
+  },
+
+  "hints": {
+    "firstname": "ادخل الاسم الاول الخاص بـــك لمتابعة التواصل عبر اسمك",
+    "lastname": "ادخل الاسم الأخير الخاص بـــك لاستكمال بياناتك الشخصية",
+    "middlename": "ادخل الاسم الأوسط الخاص بـــك لتوثيق هويتك بشكل كامل",
+    "email": "ادخل البريد الالكتروني الخاص بـــك للتواصل معك عبره",
+    "phone": {
+      "number": "ادخل رقم جوالك لمتابعة التواصل معك عليه"
+    },
+    "titles": {
+      "new": "أدخل لقب جديد",
+      "edit": "تعديل اللقب"
+    },
+    "visa-types": {
+      "new": "أدخل نوع فيزا جديد",
+      "edit": "تعديل نوع الفيزا"
+    },
+    "employment-types": {
+      "new": "أدخل نوع توظيف جديد",
+      "edit": "تعديل نوع التوظيف"
+    },
+    "visibility": "حدد الرؤية",
+    "locale": "حدد اللغة",
+    "password": "ادخل كلمة المرور الخاصة بـــك لتأمين حسابك",
+    "confirmPassword": "أعد إدخال كلمة المرور الجديدة للتأكد من صحتها",
+    "currentPassword": "ادخل كلمة المرور الحالية للمتابعة مع تغييرها",
+    "newPassword": "ادخل كلمة المرور الجديدة التي ترغب باستخدامها",
+    "loginPassword": "ادخل كلمة المرور الخاصة بحسابك للمتابعة",
+    "birthdate": "ادخل تاريخ ميلادك للتحقق من عمرك والمتابعة ",
+    "country": "ادخل دولتك للمتابعة"
+  },
+  "tourismVisas": {
+    "providerName": "الاسم الكامل لمزود التأشيرة",
+    "heading": "تأشيرات السياحة",
+    "list_title": "جدول تأشيرات السياحة",
+    "edit_title": "تفاصيل تأشيرة السياحة",
+    "details_title": "تفاصيل طلب تأشيرة السياحة",
+    "changePassword": "تعديل كلمة المرور",
+
+    "fields": {
+      "id": "رقم الطلب",
+      "name": "الاسم",
+      "status": "الحالة",
+      "request_date": "تاريخ الطلب",
+      "phone": "رقم الهاتف",
+      "email": "البريد الإلكتروني",
+      "requestDate": "تاريخ الطلب",
+      "providerName": "الاسم الكامل لمزود التأشيرة",
+      "actions": "عرض تفاصيل التأشيرة",
+      "destination_country": "بلد الوجهة",
+      "contact_email": "البريد الإلكتروني للتواصل",
+      "toggle_visible": "تغيير الرؤية",
+      "visible": "الرؤية",
+      "birthdate": "تاريخ الميلاد",
+      "gender": "الجنس",
+      "nationality": "الجنسية",
+      "passport_number": "رقم الجواز",
+      "purpose_of_visit": "غرض الزيارة",
+      "adults_count": "عدد البالغين",
+      "children_count": "عدد الأطفال",
+      "message": "ملاحظات إضافية",
+      "application_status": "حالة الطلب",
+      "passport_images": "صور جواز السفر",
+      "documents": "المستندات",
+      "document": "مستند",
+      "fullname": "الاسم الكامل"
+    },
+
+    "gender": {
+      "male": "ذكر",
+      "female": "أنثى"
+    },
+
+    "sections": {
+      "personal_info": "المعلومات الشخصية",
+      "visa_info": "معلومات التأشيرة",
+      "attachments": "المستندات والمرفقات"
+    },
+
+    "buttons": {
+      "update_status": "تحديث الحالة",
+      "change_to": "تغيير الحالة إلى"
+    },
+
+    "dialogs": {
+      "update_status": "تحديث حالة الطلب",
+      "status_change_prompt": "هل أنت متأكد من رغبتك في تغيير الحالة؟",
+      "confirm_status_update": "تأكيد تحديث الحالة"
+    },
+
+    "help": {
+      "name": "أدخل اسمًا فريدًا لهذا العنوان"
+    }
+  },
+
+  "errors": {
+    "visa_not_found": "لم يتم العثور على طلب التأشيرة"
+  },
+  "users": {
+    "heading": "المستخدمون",
+    "list_title": "جدول المستخدمين",
+    "user_details": "تفاصيل المستخدم",
+    "fields": {
+      "id": "الرقم التعريفي",
+      "username": "اسم المستخدم",
+      "phone": "الجوال",
+      "phone_number": "الرقم",
+      "email": "البريد الإلكتروني",
+      "role": "الدور",
+      "roles": "الأدوار",
+      "actions": "إجراءات",
+      "toggle_visible": "تغيير الرؤية",
+      "status": "الحالة",
+      "file": "بيانات المستخدم",
+
+      "blocked": "محظور",
+      "active": "نشط",
+      "middlename": "الاسم الأوسط",
+      "none": "لا يوجد",
+
+      "lastname": "اللقب",
+      "type": "النوع",
+      "holderName": "اسم المالك",
+      "verification_status": "حالة التحقق",
+      "verified": "تم التحقق",
+      "unverified": "غير متحقق",
+      "country": "البلد",
+      "firstname": "الاسم الأول",
+      "birth_date": "تاريخ الميلاد"
+    },
+    "help": {
+      "name": "أدخل اسمًا فريدًا لهذا اللقب"
+    }
+  },
+  "titles": {
+    "heading": "الألقاب",
+    "list_title": "جدول الألقاب",
+    "create_title": "إنشاء لقب جديد",
+    "edit_title": "تعديل اللقب",
+    "changePassword": "تعديل كلمة المرور",
+    "fields": {
+      "id": "الرقم التعريفي",
+      "name": "الاسم",
+      "actions": "إجراءات",
+      "toggle_visible": "تغيير الرؤية",
+      "visible": "الرؤية"
+    },
+    "help": {
+      "name": "أدخل اسمًا فريدًا لهذا اللقب"
+    }
+  },
+  "countries": {
+    "heading": "الدول",
+    "list_countries": "جدول الدول",
+    "edit_countries": "تعديل الدول",
+    "fields": {
+      "id": "الرقم التعريفي",
+      "name": "الاسم",
+      "flag": "العلم",
+      "actions": "إجراءات",
+      "toggle_visible": "تغيير الرؤية",
+      "visible": "الرؤية",
+      "currency": "العملة",
+      "phone_code": "رمز الجوال"
+    },
+
+    "help": {
+      "name": "ادخل اسما فريدا لهذا البلد"
+    }
+  },
+  "settings": {
+    "heading": "الاعدادات",
+    "list_settings": "جدول الاعدادات",
+    "edit_settings": "تعديل الاعدادات",
+    "selected_value": "القيمة المحددة",
+    "fields": {
+      "key": "المعرف",
+      "value": "القيمة",
+      "actions": "اجراءات"
+    },
+    "display_names": {
+      "terms_and_conditions": "الشروط والأحكام",
+      "usage_policy": "سياسة الاستخدام",
+      "additional_tax_rate": "معدل الضريبة الإضافية (%)",
+      "fixed_tax_amount": "مبلغ الضريبة الثابت",
+      "welcome": "رسالة الترحيب",
+      "contacts_email": "عنوان البريد الإلكتروني للتواصل",
+      "contacts_phone": "رقم هاتف التواصل",
+      "contacts_address": "عنوان التواصل الفعلي",
+      "privacy_policy": "سياسة الخصوصية",
+      "about1": "من نحن (الجزء الأول)",
+      "about2": "من نحن (الجزء الثاني)",
+      "user_must_verify_email": "التحقق من البريد الإلكتروني مطلوب",
+      "email_verification_subject": "عنوان رسالة التحقق من البريد الإلكتروني",
+      "email_verification_body": "محتوى رسالة التحقق من البريد الإلكتروني",
+      "email_verified_successfully_subject": "عنوان رسالة نجاح التحقق من البريد الإلكتروني",
+      "email_verified_successfully_body": "محتوى رسالة نجاح التحقق من البريد الإلكتروني",
+      "reset_password_email_subject": "عنوان رسالة إعادة تعيين كلمة المرور",
+      "reset_password_email_body": "محتوى رسالة إعادة تعيين كلمة المرور",
+      "guest_set_password_email_subject": "عنوان رسالة إعداد كلمة مرور الضيف",
+      "guest_set_password_email_body": "محتوى رسالة إعداد كلمة مرور الضيف"
+    },
+    "input_labels": {
+      "text": "قيمة نصية",
+      "number": "قيمة رقمية",
+      "textarea": "محتوى نصي",
+      "checkbox": "خيار تبديل",
+      "range": "نطاق القيمة",
+      "email_subject": "عنوان البريد الإلكتروني",
+      "email_body": "محتوى رسالة البريد الإلكتروني",
+      "tax_rate": "نسبة الضريبة",
+      "tax_amount": "قيمة الضريبة"
+    },
+    "hints": {
+      "text": "أدخل قيمة نصية بسيطة",
+      "number": "أدخل قيمة رقمية فقط",
+      "textarea": "أدخل أو عدل محتوى نصي متعدد الأسطر",
+      "checkbox": "قم بتبديل هذا الإعداد لتشغيله أو إيقافه",
+      "range": "اسحب المؤشر لتعيين قيمة",
+      "terms_and_conditions": "هذه هي الشروط القانونية التي يجب على المستخدمين الموافقة عليها عند استخدام التطبيق",
+      "privacy_policy": "توضح هذه السياسة كيفية جمع بيانات المستخدم واستخدامها وحمايتها",
+      "email_verification": "سيتم إرسال هذا البريد الإلكتروني إلى المستخدمين للتحقق من عنوان البريد الإلكتروني الخاص بهم",
+      "user_must_verify_email": "عند التمكين، يجب على المستخدمين التحقق من عنوان البريد الإلكتروني الخاص بهم قبل استخدام النظام",
+      "welcome_message": "سيتم عرض هذه الرسالة للمستخدمين عند تسجيل الدخول لأول مرة",
+      "tax_rate": "سيتم تطبيق هذه النسبة لحساب الضريبة الإضافية"
+    },
+    "placeholders": {
+      "text": "أدخل النص هنا...",
+      "number": "أدخل رقماً...",
+      "textarea": "أدخل المحتوى هنا...",
+      "email_subject": "أدخل عنوان البريد الإلكتروني...",
+      "email_body": "أدخل محتوى رسالة البريد الإلكتروني..."
+    }
+  },
+  "forms": {
+    "login": {
+      "title": "تسجيل الدخول"
+    }
+  },
+
+  "editProfile": {
+    "title": "تعديل الملف الشخصي"
+  },
+  "labels": {
+    "firstname": "الاسم الأول",
+    "middlename": "الاسم الأوسط",
+    "lastname": "اسم العائلة",
+    "email": "البريد الإلكتروني",
+    "dateOfBirth": "تاريخ الميلاد",
+    "countryCode": "رمز الدولة",
+    "phone": "الهاتف",
+    "save": "حفظ",
+    "password": " كلمة المرور",
+    "password_confirmation": "تاكيد كلمة المرور",
+    "newPassword": "أعد إدخال كلمة المرور الجديدة",
+    "old_password": "كلمة المرور الحالية",
+    "new_password": "كلمة المرور الجديدة",
+    "new_password_confirmation": " تأكيد كلمة المرور الجديدة",
+    "buttons": {
+      "saveChanges": "حفظ التعديلات",
+      "changePassword": "تعديل كلمة المرور"
+    },
+    "country": "الدولة",
+    "birthDate": "تاريخ الميلاد"
+  },
+
+  "visas": {
+    "heading": "فيزا",
+    "list_title": "جدول أنواع الفيزا",
+    "create_title": "إنشاء نوع فيزا جديد",
+    "edit_title": "تعديل أنواع الفيزا",
+    "fields": {
+      "id": "الرقم التعريفي",
+      "name": "الاسم",
+      "actions": "إجراءات",
+      "toggle_visible": "تغيير الرؤية",
+      "visible": "الرؤية"
+    }
+  },
+  "placeHolders": {
+    "firstName": "أدخل اسمك الأول",
+    "lastName": "أدخل اسمك الأخير",
+    "firstname": "أدخل اسمك الأول",
+    "lastname": "أدخل اسمك الأخير",
+    "password": "أدخل كلمة المرور",
+    "phone": "أدخل رقم جوالك",
+    "email": "أدخل لقب بريدك الإلكتروني",
+    "visa": "أدخل تأشيرة جديدة",
+    "title": "أدخل لقب جديد",
+    "employment-type": "أدخل نوع التوظيف الجديد"
+  },
+
+  "employment-types": {
+    "heading": "أنواع التوظيف",
+    "employment": "التوظيف",
+    "list_title": "جدول أنواع التوظيف",
+    "create_title": "إنشاء نوع التوظيف جديد",
+    "edit_title": "تعديل نوع التوظيف",
+
+    "fields": {
+      "id": "المعرف",
+      "name": "الاسم",
+      "actions": "الإجراءات",
+      "toggle_visible": "تغيير الرؤية",
+      "visible": "الرؤية",
+      "role": "الدور"
+    }
+  },
+
+  "error": {
+    "title": "عفواً حدث خطأ الرجاء المحاولة مرة أخرى",
+    "desc": "الصفحة غير موجودة الرجاء التأكد من الصفحة أو المحاولة في وقت أخر"
+  }
+}

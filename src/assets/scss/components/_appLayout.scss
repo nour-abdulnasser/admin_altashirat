@@ -1,0 +1,43 @@
+// .error-layout {
+//   background-color: #f8f9fa;
+//   min-height: 100vh;
+// }
+
+/* App container with margin and fixed dimensions */
+.app-container {
+  margin-top: 12px;
+  height: calc(100vh - 12px);
+  background-color: #f7f8f9;
+}
+
+/* Main content area with proper scrolling */
+.main-content {
+  flex: 1;
+  position: relative;
+  height: 0; /* This forces the flex item to adhere to the parent's dimensions */
+  padding-bottom: 12px;
+}
+
+.v-application__wrap {
+  background-color: #f7f8f9;
+}
+
+// Error layouts
+
+.error-page {
+  min-height: 80vh;
+}
+
+.error-card {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  &.v-card {
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}

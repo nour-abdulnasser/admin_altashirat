@@ -1,0 +1,454 @@
+{
+  "buttons": {
+    "submit": "Submit",
+    "login": "Log in",
+    "addRecord": "Create",
+    "create": "Create",
+    "refresh": "Refresh",
+    "language": "English",
+    "update": "Update",
+    "cancel": "Cancel",
+    "close": "Close",
+    "saveChanges": "Save changes",
+    "save": "Save",
+    "changePassword": "Change password",
+    "backToHome": "Back to Home",
+    "back": "Back",
+    "view": "View",
+    "confirm": "Confirm",
+    "download": "Download",
+    "back_to_list": "Back to List"
+  },
+  "fields": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "password": "Password",
+    "old_password": "Current password",
+    "new_password": "New password",
+    "new_password_confirmation": "Confirm password",
+    "confirmPassword": "Confirm password",
+    "language": "Language",
+    "occupation": "Occupation",
+    "email": "Email",
+    "id": "ID",
+    "phone": {
+      "number": "Phone number",
+      "country_code": "Country code"
+    },
+    "visible": "Visible",
+    "visibility": "Visibility",
+    "toggle_visible": "Change visibility",
+    "locale": "Language",
+    "actions": "Actions",
+    "status": "Status",
+    "name": "Name",
+
+    "countryField": "Country",
+    "country": "Country",
+    "birthdate": "Birth date",
+    "text": "Text Field",
+    "number": "Number Field",
+    "textarea": "Text Area",
+    "checkbox": "Checkbox",
+    "range": "Range Slider",
+    "value": "Value"
+  },
+  "placeHolders": {
+    "firstName": "Enter your first name",
+    "lastName": "Enter your last name",
+    "firstname": "Enter your first name",
+    "lastname": "Enter your last name",
+    "password": "Enter your password",
+    "phone": "Enter your phone number",
+    "email": "Enter your email address",
+    "visa": "Enter new visa",
+    "title": "Enter new title",
+    "employment-type": "Enter new employment type"
+  },
+  "hints": {
+    "firstname": "Enter your first name",
+    "lastname": "Enter your last name",
+    "middlename": "Enter your middle name",
+    "email": "Enter your email address",
+    "phone": {
+      "number": "Enter your mobile number"
+    },
+    "password": "Enter your password",
+    "loginPassword": "Enter your password to continue",
+    "confirmPassword": "Re-enter password for confirmation",
+    "currentPassword": "Enter current password",
+    "newPassword": "Enter new password",
+    "country": "Enter your country",
+    "visibility": "Determine visibility",
+    "locale": "Determine locale",
+    "titles": {
+      "new": "Enter new title",
+      "edit": "Edit the title"
+    },
+    "visa-types": {
+      "new": "Enter new visa type",
+      "edit": "Edit the visa type"
+    },
+    "employment-types": {
+      "new": "Enter new employment type",
+      "edit": "Edit the employment type"
+    },
+
+    "birthdate": "Enter your date of birth"
+  },
+  "validation": {
+    "required": "{field} is required",
+    "min": "{field} must be at least {min} characters",
+    "max": "{field} cannot be longer than {max} characters",
+    "regex": "{field} format is invalid",
+    "upper": "{field} should have at least one uppercase letter",
+    "lower": "{field} should have at least one lowercase letter",
+    "special": "{field} should have at least one special character",
+    "num": "{field} should have at least one number",
+    "numeric": "{field} should only consist of numbers",
+    "alphaOnly": "{field} should only consist of alphabetical letters",
+    "confirmed": "Passwords must match",
+    "email": "Please enter a valid email address",
+    "integer": "{field} must be integer",
+    "string": "{field} must be string",
+    "boolean": "{field} must be boolean"
+  },
+  "drawer": {
+    "welcome": "Welcome,",
+    "dashboard": "Dashboard",
+    "titles": "Titles",
+    "users": "Users",
+    "permissions": "Permissions",
+    "countries": "Countries",
+    "settings": "Settings",
+    "visatypes": "Visa Types",
+    "tourismVisas": "Tourism Visas",
+
+    "employment-types": "Employment types",
+    "employmentTypes": "Employment Types"
+  },
+
+  "navbar": {
+    "superAdmin": "Super Admin",
+    "user": "User"
+  },
+  "pages": {
+    "home": "Home",
+    "titles": "Titles",
+    "countries": "Countries",
+    "settings": "Settings",
+    "users": "Users",
+    "visaTypes": "Visa Types",
+    "employmentTypes": "Employment Types",
+    "tourismVisas": "Tourism Visas",
+
+    "login": "Log in"
+  },
+  "common": {
+    "dashboard": "Dashboard",
+    "cancel": "Cancel",
+    "update": "Update",
+    "edit": "Edit",
+    "create": "Create",
+    "actions": "Actions",
+    "visible": "Visible",
+    "visibility": "Visibility",
+    "hidden": "Hidden",
+    "loading": "Loading",
+    "loading_data": "Loading data",
+    "birth_date": "Birthdate",
+    "select_language": "Select Language",
+    "confirm_delete": "Confirm Delete",
+    "loading_user_info": "Loading user information...",
+    "delete_confirmation_message": "Are you sure you want to delete this item?",
+    "delete": "Delete",
+    "none": "None",
+    "no_documents": "No documents attached"
+  },
+  "descriptions": {
+    "phone": "Enter your phone number",
+    "password": "Enter your password"
+  },
+  "titles": {
+    "heading": "Titles",
+    "list_title": "Titles Table",
+    "create_title": "Create New Title",
+    "edit_title": "Edit Title",
+    "changePassword": "Change password",
+
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "actions": "Actions",
+      "toggle_visible": "Change visibility",
+      "visible": "Visibility"
+    },
+
+    "help": {
+      "name": "Enter a unique name for this title"
+    }
+  },
+  "tourismVisas": {
+    "providerName": "Visa Provider Full Name",
+    "heading": "Tourism Visas",
+    "list_title": "Tourism Visas Table",
+    "edit_title": "Tourism Visa Details",
+    "details_title": "Tourism Visa Application Details",
+    "changePassword": "Change password",
+    "fields": {
+      "id": "Request ID",
+      "name": "Name",
+      "status": "Status",
+      "phone": "Contact Phone",
+      "email": "Contact Email",
+      "requestDate": "Request Date",
+      "request_date": "Request Date",
+      "providerName": "Visa Provider Full Name",
+      "actions": "Show Visa Details",
+      "destination_country": "Destination Country",
+      "contact_email": "Contact Email",
+      "toggle_visible": "Change visibility",
+      "visible": "Visibility",
+      "birthdate": "Date of Birth",
+      "gender": "Gender",
+      "nationality": "Nationality",
+      "passport_number": "Passport Number",
+      "purpose_of_visit": "Purpose of Visit",
+      "adults_count": "Number of Adults",
+      "children_count": "Number of Children",
+      "message": "Additional Notes",
+      "application_status": "Application Status",
+      "passport_images": "Passport Images",
+      "documents": "Documents",
+      "document": "Document",
+      "fullname": "Full Name"
+    },
+
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+
+    "sections": {
+      "personal_info": "Personal Information",
+      "visa_info": "Visa Information",
+      "attachments": "Documents & Attachments"
+    },
+
+    "buttons": {
+      "update_status": "Update Status",
+      "change_to": "Change status"
+    },
+
+    "dialogs": {
+      "update_status": "Update Application Status",
+      "status_change_prompt": "Are you sure you'd like to change the status?",
+      "confirm_status_update": "Confirm Status Update"
+    },
+    "help": {
+      "name": "Enter a unique name for this title"
+    }
+  },
+
+  "errors": {
+    "visa_not_found": "Visa application not found"
+  },
+  "users": {
+    "heading": "Users",
+    "list_title": "Users Table",
+    "user_details": "User details",
+    "fields": {
+      "id": "ID",
+      "username": "Username",
+      "phone": "Phone",
+      "email": "Email",
+      "role": "Role",
+      "roles": "Roles",
+      "none": "None",
+      "actions": "Actions",
+      "toggle_visible": "Change visibility",
+      "status": "Status",
+      "blocked": "Blocked",
+      "active": "Active",
+      "file": "Profile Information",
+      "middlename": "Middle Name",
+      "birth_date": "Birthdate",
+      "phone_number": "Number",
+
+      "lastname": "Last Name",
+      "type": "Type",
+      "holderName": "Holder Name",
+      "verification_status": "Verification status",
+      "verified": "Verified",
+      "unverified": "Unverified",
+      "country": "Country",
+      "firstname": "First Name"
+    },
+    "help": {
+      "name": "Enter a unique name for this title"
+    }
+  },
+  "countries": {
+    "heading": "Countries",
+    "list_countries": "Countries Table",
+    "edit_countries": "Edit countries",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "flag": "Flag",
+      "actions": "Actions",
+      "toggle_visible": "Change visibility",
+      "currency": "Currency",
+      "phone_code": "Phone code",
+
+      "visible": "Visibility"
+    },
+
+    "help": {
+      "name": "Enter a unique name for this countries"
+    }
+  },
+  "settings": {
+    "heading": "Settings",
+    "list_settings": "Settings Table",
+    "edit_settings": "Edit Settings",
+    "selected_value": "Selected value",
+
+    "fields": {
+      "key": "Key",
+      "value": "Value",
+      "actions": "Actions"
+    },
+    "display_names": {
+      "terms_and_conditions": "Terms and Conditions",
+      "usage_policy": "Usage Policy",
+      "additional_tax_rate": "Additional Tax Rate (%)",
+      "fixed_tax_amount": "Fixed Tax Amount",
+      "welcome": "Welcome Message",
+      "contacts_email": "Contact Email Address",
+      "contacts_phone": "Contact Phone Number",
+      "contacts_address": "Contact Physical Address",
+      "privacy_policy": "Privacy Policy",
+      "about1": "About Us (Part 1)",
+      "about2": "About Us (Part 2)",
+      "user_must_verify_email": "Require Email Verification",
+      "email_verification_subject": "Email Verification Subject Line",
+      "email_verification_body": "Email Verification Message Body",
+      "email_verified_successfully_subject": "Email Verified Success Subject",
+      "email_verified_successfully_body": "Email Verified Success Message",
+      "reset_password_email_subject": "Password Reset Email Subject",
+      "reset_password_email_body": "Password Reset Email Message",
+      "guest_set_password_email_subject": "Guest Password Setup Email Subject",
+      "guest_set_password_email_body": "Guest Password Setup Email Message"
+    },
+    "input_labels": {
+      "text": "Text Value",
+      "number": "Numeric Value",
+      "textarea": "Text Content",
+      "checkbox": "Toggle Setting",
+      "range": "Value Range",
+      "email_subject": "Email Subject Line",
+      "email_body": "Email Message Content",
+      "tax_rate": "Tax Rate Percentage",
+      "tax_amount": "Tax Amount Value"
+    },
+    "hints": {
+      "text": "Enter a simple text value",
+      "number": "Enter a numeric value only",
+      "textarea": "Enter or edit multi-line text content",
+      "checkbox": "Toggle this setting on or off",
+      "range": "Drag the slider to set a value",
+      "terms_and_conditions": "These are the legal terms that users must agree to when using the application",
+      "privacy_policy": "This policy explains how user data is collected, used, and protected",
+      "email_verification": "This email will be sent to users to verify their email address",
+      "user_must_verify_email": "When enabled, users must verify their email address before using the system",
+      "welcome_message": "This message will be displayed to users when they first log in",
+      "tax_rate": "This percentage will be applied to calculate additional tax"
+    },
+    "placeholders": {
+      "text": "Enter text here...",
+      "number": "Enter a number...",
+      "textarea": "Enter content here...",
+      "email_subject": "Enter email subject line...",
+      "email_body": "Enter email message content..."
+    }
+  },
+  "forms": {
+    "login": {
+      "title": "Log in"
+    }
+  },
+
+  "labels": {
+    "firstname": "First Name",
+    "middlename": " Middle Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "birthDate": "Date of birth",
+    "countryCode": "Country code",
+    "save": "save",
+    "password": "Password",
+    "password_confirmation": "Confirm password",
+    "typeNewPassword": "Type new password",
+    "newPassword": "Re-type new password",
+    "country_code": "Country code",
+    "phone": "Phone",
+    "old_password": "Current password",
+    "new_password": "New password",
+    "new_password_confirmation": "Confirm password",
+    "buttons": {
+      "savChanges": "Save changes",
+      "changePassword": "Change password"
+    },
+    "country": "Country"
+  },
+  "editProfile": {
+    "title": "Edit Profile",
+    "firstName": "First Name",
+    "middleName": " Middle Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "dateOfBirth": "Date of birth",
+    "countryCode": "Country code",
+    "phone": "Phone",
+    "save": "save",
+    "updatePassword": "update password",
+    "editPassword": "Enter current password",
+    "typeNewPassword": "Type new password",
+    "newPassword": "Re-type new password"
+  },
+
+  "visas": {
+    "heading": "Visas",
+    "list_title": "Visa Types Table",
+    "create_title": "Create New Visa Type",
+    "edit_title": "Edit Visa Type",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "actions": "Actions",
+      "toggle_visible": "Change visibility",
+      "visible": "Visibility"
+    }
+  },
+  "employment-types": {
+    "heading": "Employment Types",
+    "list_title": "Employment Types Table",
+    "create_title": "Create New Employment Type ",
+    "edit_title": "Edit Employment Type ",
+    "fields": {
+      "id": "ID",
+      "name": "Name",
+      "actions": "Actions",
+      "toggle_visible": "Change visibility",
+      "visible": "Visibility",
+      "role": "Role"
+    }
+  },
+  "error": {
+    "title": "Sorry, something went wrong. Please try again.",
+    "desc": "This page does not exist. Make sure the page exists or try some other time."
+  }
+}

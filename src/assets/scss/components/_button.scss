@@ -1,0 +1,57 @@
+@use "@/assets/scss/_variables.scss" as *;
+.button {
+  margin: 11.25px 14.5px;
+
+  &--primary-filled {
+    height: calc(100% - 20px) !important;
+    padding: 0.82rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-radius: 8.9px;
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 0 7px 15px 2px rgba(223, 38, 161, 0.3) !important;
+  }
+
+  &--secondary-filled {
+    // padding: 0.82rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+    border-radius: 8.9px;
+
+    color: white;
+    background-color: var(--secondary-color);
+    box-shadow: 0 7px 15px 2px hsla(207, 22%, 59%, 0.502);
+  }
+
+  &--primary-unfilled {
+    padding: 0.82rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-radius: 8.9px;
+
+    background-color: white;
+    color: var(--primary-color);
+    border: solid 1.7px var(--primary-color);
+  }
+
+  &--secondary-unfilled {
+    // padding: 0.82rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border-radius: 8.9px;
+
+    background-color: white;
+    color: var(--secondary-color);
+    border: solid 1.7px var(--secondary-color);
+  }
+}

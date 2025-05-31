@@ -1,0 +1,105 @@
+@use "@/assets/scss/_variables.scss" as *;
+.navbar {
+  .profile__locale {
+    .v-input__control {
+      .v-field{
+        padding: 0;
+      }
+      .v-field__outline {
+        display: none !important;
+      }
+    }
+  }
+  &.v-locale--is-ltr {
+    .drawer-icon {
+      transform: scaleX(-1);
+    }
+  }
+  border: solid 2px #e2e2e2;
+  &__profile {
+    .append-details {
+      display: none;
+    }
+    &:hover {
+      .append-details {
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid var(--custom-grey-dark);
+        background-color: #fff;
+        position: fixed !important;
+        top: 100%;
+        box-shadow: 0px 2px 4px 0px #888888;
+      }
+    }
+    // padding: 14px;
+  }
+}
+.header--drawer-closed.mobile {
+  &.v-locale--is-rtl {
+    width: calc(100% - 28px) !important;
+    border-right: solid 1px #e2e2e2 !important;
+    border-top-right-radius: 16px !important;
+  }
+  &.v-locale--is-ltr {
+    width: calc(100% - 28px) !important;
+    border-left: solid 1px #e2e2e2 !important;
+    border-top-left-radius: 16px !important;
+  }
+}
+.header--drawer-open.mobile {
+  &.v-locale--is-rtl {
+    width: calc(100% - 28px) !important;
+
+    border-right: solid 1px #e2e2e2 !important;
+    border-top-right-radius: 16px !important;
+  }
+  &.v-locale--is-ltr {
+    // width: calc(100% - 24px) !important;
+    width: calc(100% - 28px) !important;
+    // margin-right: 50px;
+    border-left: solid 1px #e2e2e2 !important;
+    border-top-left-radius: 16px !important;
+  }
+}
+.header--drawer-open.not-mobile {
+  &.v-locale--is-rtl {
+    // width: calc(100% - 2444px) !important;
+    border-right: solid 1px #e2e2e2 !important;
+    border-top-right-radius: 16px !important;
+  }
+  &.v-locale--is-ltr {
+    // width: calc(100% - 24px) !important;
+    width: calc(100% - 284px) !important;
+    // margin-right: 50px;
+    // border-left: solid 1px #e2e2e2 !important;
+    // border-top-left-radius: 16px !important;
+  }
+}
+.header--drawer-closed.not-mobile {
+  &.v-locale--is-rtl {
+    width: calc(100% - 24px) !important;
+    border-right: solid 1px #e2e2e2 !important;
+    border-top-right-radius: 16px !important;
+  }
+  &.v-locale--is-ltr {
+    width: calc(100% - 28px) !important;
+    border-left: solid 1px #e2e2e2 !important;
+    border-top-left-radius: 16px !important;
+  }
+}
+.navbar {
+  &.v-locale--is-rtl.is-not-auth {
+    width: calc(100% - 28px) !important;
+    // border-right: solid 1px #e2e2e2 !important;
+    // border-top-right-radius: 16px !important;
+  }
+  &.v-locale--is-ltr.is-not-auth {
+    width: calc(100% - 28px) !important;
+    border-left: solid 1px #e2e2e2 !important;
+    border-top-left-radius: 16px !important;
+    // margin-left: 12px;
+    // left: 12px;
+  }
+}

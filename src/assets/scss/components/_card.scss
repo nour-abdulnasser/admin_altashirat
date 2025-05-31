@@ -1,0 +1,26 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.card {
+  position: relative;
+//   padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: solid 1px #e2e2e2;
+  box-shadow: none;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 5px;
+    height: 46px;
+    background-color: var(--primary-color);
+    margin-top: 8px;
+  }
+  .v-card-title {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+}

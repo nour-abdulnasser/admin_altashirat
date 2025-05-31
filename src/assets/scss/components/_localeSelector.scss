@@ -1,0 +1,21 @@
+.locale-select {
+  &--no-outline {
+    outline: none;
+  }
+}
+.hide-menu-icon {
+  .v-select__menu-icon {
+    display: none;
+  }
+  .v-field__input {
+    padding: 2px 4px 2px 2px;
+  }
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.no-menu-icon {
+  .v-select__menu-icon {
+    display: none !important;
+  }
+}

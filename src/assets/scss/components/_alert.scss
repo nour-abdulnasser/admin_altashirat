@@ -1,0 +1,26 @@
+@use "@/assets/scss/_variables.scss" as *;
+
+.alert {
+  margin: 29px 19px ;
+  &__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle ;
+    span{
+      margin: 5px;
+    }
+  }
+  &--valid {
+    background-color: #f1fff2;
+    border: solid 1px var(--correct-text-color);
+    color: var(--correct-text-color);
+    font-size: 1.25rem;
+  }
+  &--invalid {
+    background-color: #fae1e4;
+    border: solid 1px var(--error-text-color);
+    color: var(--error-text-color);
+    font-size: 1rem;
+  }
+}
