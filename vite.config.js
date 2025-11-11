@@ -16,6 +16,7 @@ export default defineConfig({
   //     }
   //   }
   // },
+   base: '/admin_altashirat/', // repo base
   plugins: [
     vue(),
     vueDevTools(),
