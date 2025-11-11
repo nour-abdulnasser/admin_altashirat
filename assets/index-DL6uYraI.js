@@ -1,1 +1,0 @@
-import{_ as o,l as n,o as r,g as t,h as c}from"./index-CmSVDvr-.js";const s={};function _(a,l){const e=n("router-view");return r(),t("div",null,[c(e)])}const d=o(s,[["render",_]]);export{d as default};

@@ -1,1 +1,0 @@
-import{D as l,r as t}from"./index-CmSVDvr-.js";const m=l("form-locale",()=>{const o=localStorage.getItem("app-locale")||localStorage.getItem("form-locale")||"en",e=t(o);return{formLocale:e,setFormLocale:a=>{e.value=a,localStorage.setItem("form-locale",e.value)}}});export{m as u};
